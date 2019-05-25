@@ -4387,6 +4387,144 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 349259561}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &372195763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 372195766}
+  - component: {fileID: 372195765}
+  - component: {fileID: 372195764}
+  - component: {fileID: 372195767}
+  - component: {fileID: 372195768}
+  m_Layer: 0
+  m_Name: bento
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &372195764
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372195763}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c4761929177be14591e16ad6fd897a6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &372195765
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372195763}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 15022abc6f8baab4ebd93ddd9417583b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &372195766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372195763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.8, y: 24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &372195767
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372195763}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
+--- !u!50 &372195768
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372195763}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &377583208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20309,10 +20447,10 @@ Transform:
   - {fileID: 1522917660}
   - {fileID: 60304938}
   - {fileID: 1300430934}
+  - {fileID: 1132621985}
   - {fileID: 641752714}
   - {fileID: 299799951}
   - {fileID: 2083907752}
-  - {fileID: 1132621985}
   - {fileID: 123509944}
   - {fileID: 423322518}
   - {fileID: 722601784}
@@ -20340,16 +20478,16 @@ Transform:
   - {fileID: 86123255}
   - {fileID: 969300907}
   - {fileID: 1048542301}
-  - {fileID: 1176350400}
+  - {fileID: 377795577}
   - {fileID: 1991725742}
   - {fileID: 2107800104}
+  - {fileID: 1176350400}
   - {fileID: 1499435582}
   - {fileID: 848786735}
   - {fileID: 1041736376}
   - {fileID: 1312872117}
   - {fileID: 2019244671}
   - {fileID: 2069415538}
-  - {fileID: 377795577}
   - {fileID: 1310835173}
   - {fileID: 1741680795}
   - {fileID: 1280182533}
@@ -20373,37 +20511,37 @@ Transform:
   - {fileID: 266677162}
   - {fileID: 778340992}
   - {fileID: 1054728153}
+  - {fileID: 427734633}
   - {fileID: 1535021574}
+  - {fileID: 1964702656}
   - {fileID: 1474421956}
   - {fileID: 1898729972}
-  - {fileID: 427734633}
-  - {fileID: 1964702656}
-  - {fileID: 850693770}
-  - {fileID: 1475995623}
-  - {fileID: 1248513308}
-  - {fileID: 1151573256}
-  - {fileID: 1557081684}
-  - {fileID: 1967433648}
-  - {fileID: 700732405}
-  - {fileID: 605540772}
-  - {fileID: 923379007}
-  - {fileID: 1108223007}
-  - {fileID: 2004266924}
   - {fileID: 1467934491}
-  - {fileID: 511074306}
+  - {fileID: 700732405}
+  - {fileID: 850693770}
+  - {fileID: 605540772}
+  - {fileID: 1475995623}
+  - {fileID: 923379007}
   - {fileID: 559800232}
+  - {fileID: 1108223007}
+  - {fileID: 1248513308}
+  - {fileID: 2004266924}
+  - {fileID: 511074306}
+  - {fileID: 1151573256}
   - {fileID: 732349340}
+  - {fileID: 1557081684}
   - {fileID: 1758852201}
   - {fileID: 111755633}
   - {fileID: 38268293}
+  - {fileID: 1967433648}
   - {fileID: 1128539216}
   - {fileID: 1830559155}
   - {fileID: 1569879201}
   - {fileID: 858679241}
   - {fileID: 1103261675}
-  - {fileID: 2056850289}
   - {fileID: 1443160771}
   - {fileID: 512943752}
+  - {fileID: 2056850289}
   - {fileID: 119349007}
   - {fileID: 269782655}
   - {fileID: 250990346}
@@ -20425,20 +20563,20 @@ Transform:
   - {fileID: 1299085264}
   - {fileID: 58726276}
   - {fileID: 1950803952}
-  - {fileID: 1833646460}
   - {fileID: 248869802}
   - {fileID: 1836604825}
   - {fileID: 310318454}
   - {fileID: 622998414}
   - {fileID: 1586943987}
-  - {fileID: 996777443}
-  - {fileID: 167971005}
+  - {fileID: 1833646460}
   - {fileID: 875839365}
+  - {fileID: 996777443}
   - {fileID: 377583209}
   - {fileID: 449750353}
   - {fileID: 1779738811}
   - {fileID: 181285836}
   - {fileID: 104999025}
+  - {fileID: 167971005}
   - {fileID: 1290897788}
   - {fileID: 426408926}
   - {fileID: 1719107294}
