@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class Pacdot : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D co)
+    public Diretor diretor;
+
+    private void Start()
     {
-        if(co.name == "pacman")
+        diretor = GameObject.FindObjectOfType<Diretor>();
+    }
+
+    private void OnTriggerEnter2D(Collider2D colisor)
+    {
+        if(colisor.name == "Pacman")
         {
+            diretor.AdicionarPontos();
             Destroy(gameObject);
+            
         }    
     }
 }
